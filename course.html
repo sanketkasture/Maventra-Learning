@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Maventra</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/aos.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.min1.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="./css/about-us.css">
+  <link rel="stylesheet" type="text/css" href="./css/course.css">
+  <link rel="stylesheet" type="text/css" href="./css/aos.css">
+</head>
+
+<script type="text/javascript">
+  $(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+
+
+</script>
+
+<style type="text/css">
+
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar-fixed-top.scrolled .nav-link, .navbar-fixed-top.scrolled .nav-item.dropdown {
+  color:#555;
+}
+</style>
+
+<body>
+
+<div id="mainheader" class="header ">
+  
+  <nav class="navbar navbar-expand-sm ctm-navbar navbar-dark bg-primary navbar-fixed-top" id="navigation" >
+    <a class="navbar-brand" href="index.html">
+          <img src='./assets/dark-logo.png'>
+    </a>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link " href="index.html" id="abc">Home</a>
+            </li>
+            <li class="nav-item dropdown dropdown_link_nav">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Solutions </a>
+
+                  <div class="dropdown_menu" style="display: none; " data-aos="zoom-in">
+                    <div class="dropdown_inner">
+                      <div class="dropdown_item">
+                        <a href="about-us.html" class="sub-menu-link w-inline-block">
+                          <img src='./assets/submenu1.jpg' class="dropdown_img">
+                          <div>
+                            <h3 class="xxs-title">About us</h3>
+                            <p class="dropdown_link_text">We're Hopin, your virtual venue for live online events.</p>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="dropdown_item">
+                        <a href="services.html" class="sub-menu-link w-inline-block">
+                          <img src='./assets/submenu2.jpg' class="dropdown_img">
+                          <div>
+                            <h3 class="xxs-title">Our Service</h3>
+                            <p class="dropdown_link_text">Sustainable, and accessible way to host and attend events.</p>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="dropdown_item">
+                        <a href="#" class="sub-menu-link w-inline-block">
+                          <img src='./assets/submenu3.jpg' class="dropdown_img">
+                          <div>
+                            <h3 class="xxs-title">Careers</h3>
+                            <p class="dropdown_link_text">Moving fast, working smart? <br>Join our team!</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  
+            </li>
+
+                       
+            <li class="nav-item">
+              <a class="nav-link active" href="course.html" id="abc">Course</a>
+            </li>
+            
+            <li class="nav-item dropdown dropdown_link_nav">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Services </a>
+
+                  <div class="dropdown_menu one" style="display: none;" data-aos="zoom-in">
+                      <div class="dropdown_inner">
+                        <div class="dropdown_item">
+                          <div class="sub-menu-title">Case studies</div>
+                          <div class="sub-menu-link-wrap">
+                            <a href="#" class="sub-menu-link w-inline-block">
+                              <img src='./assets/case1.jpg' class="dropdown_img">
+                              <div>
+                                <p class="dropdown_link_text">How the United Nations delighted thousands of top global leaders on Hopin</p>
+                              </div>
+                            </a>
+                            <a href="#" class="sub-menu-link w-inline-block">
+                              <img src='./assets/case2.jpg' class="dropdown_img">
+                              <div>
+                                <p class="dropdown_link_text">How the WSJ hosted its first virtual event on Hopin</p>
+                              </div>
+                            </a>
+                          </div>
+                          <a href="#" class="link-arrow-right">See all case studies</a>
+                          
+                        </div>
+                        <div class="dropdown_item">
+                          <div class="sub-menu-title">Our happy clients</div>
+                          <a href="#" class="menu_logos_list w-inline-block">
+                            <img src='./assets/client1.svg' class="menu_logo">
+                            <img src='./assets/client2.svg' class="menu_logo">
+                            <img src='./assets/client3.png' class="menu_logo adobe">
+                            <img src='./assets/client4.svg' class="menu_logo">
+                            <img src='./assets/client5.svg' class="menu_logo">
+                            <img src='./assets/client6.svg' class="menu_logo">
+                            <img src='./assets/client7.svg' class="menu_logo">
+                            <img src='./assets/client8.svg' class="menu_logo">
+                            <img src='./assets/client9.svg' class="menu_logo">
+                            <img src='./assets/client10.svg' class="menu_logo">
+                          </a>
+                          <a href="#" class="link-arrow-right">Read testimonials</a>
+                          
+                        </div>
+                      </div>
+                    </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="abc">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="abc">Log in</a>
+            </li>
+          </ul>
+
+
+
+          <span>
+            <button type="button" class="btn btn-default">Sign Up Free</button>
+          </span>
+    </div>
+  </nav>
+</div>
+
+<div id="course-page">
+    <!-- <section id="banner">
+      <div class="container">
+        <div class="about-sec" data-aos="fade-up" >
+          <div class="col-ms-12">
+            <h1>The Complete React Web Developer Course</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, eius to mod tempor incidi dunt ut labore et dolore magna aliqua. Ut enims ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit, eius to mod tempor incidi dunt ut labore et dolore magna aliqua. Ut enims ad minim veniam.Lorem sum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, eius to mod tempor incidi dunt ut labore et dolore magna aliqua. Ut enims ad minim veniam.</p>
+          </div>
+          <div class="abt-btn-group">
+            <button type="button" class="btn btn-default">Start your free trial</button>
+            <button type="button" class="btn btn-default">Request a demo</button>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="course-sec">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="left-side-sec">
+              <div class="left-one"  data-aos="fade-up">
+                <h2>The Complete React Web Developer Course</h2>
+                <div class="a-details">
+                  <div class="a-name">
+                    <img src="https://thepixelcurve.com/wp/edubin/tutor/wp-content/uploads/sites/11/2019/03/t-3-1-5-150x150.jpg" class="image-responsive">
+                    <p>by <span>Mark Alen</span>
+                  </div>
+
+                  <div class="c-level">
+                    <p>Course level: <span>Intermediate</span>
+                  </div>
+
+                  <div class="course-link">
+                    <p>Share</p>
+                    <div class="social-links">
+                      <a href="#" class="s-link"><i class="fa fa-facebook"></i></a>
+                      <a href="#" class="s-link"><i class="fa fa-twitter"></i></a>
+                      <a href="#" class="s-link"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="c-cate">
+                  <table class="table table-hover">
+                      <thead>
+                        <tr>
+                          <th>Categories</th>
+                          <th>Duration</th>
+                          <th>Total Enrolled</th>
+                          <th>Last Update</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Development</td>
+                          <td>7h 30m</td>
+                          <td>0</td>
+                          <td>June 28, 2020</td>
+                        </tr>
+                        <tr>
+                          <td>Development</td>
+                          <td>7h 30m</td>
+                          <td>0</td>
+                          <td>June 28, 2020</td>
+                        </tr>
+                        <tr>
+                          <td>Development</td>
+                          <td>7h 30m</td>
+                          <td>0</td>
+                          <td>June 28, 2020</td>
+                        </tr>
+                        <tr>
+                          <td>Development</td>
+                          <td>7h 30m</td>
+                          <td>0</td>
+                          <td>June 28, 2020</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </div>
+              </div>
+
+              <div class="left-two"  data-aos="fade-up">
+                <h3>Description</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, eius to mod tempor incidi dunt ut labore et dolore magna aliqua. Ut enims ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit, eius to mod tempor incidi</p>
+
+                <h3>What we offer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, eius to mod tempor incidi dunt ut labore et dolore magna aliqua. Ut enims ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit, eius to mod tempor incidi</p>
+
+                <h3>So what is the course about?</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, eius to mod tempor incidi dunt ut labore et dolore magna aliqua. Ut enims ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit, eius to mod tempor incidi</p>
+
+                <h3>What We Offer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, eius to mod tempor incidi dunt ut labore et dolore magna aliqua. Ut enims ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit, eius to mod tempor incidi</p>
+              </div>
+
+              <div class="left-three"  data-aos="fade-up">
+                <div class="course-topic">
+                  <div class="topic-header">
+                    <div class="header-left">
+                      <h3>Topics for this course</h3>
+                    </div>
+                    <div class="header-right">
+                      <span>7 Lessons</span>
+                      <span>7h 30m</span>
+                    </div>
+                  </div>
+
+                  <div class="course-desc">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                 <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Introduction
+                            </a>
+                          </h4>
+
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.le VHS. Lorem ipsum dolor sit amet, consectetur adipisicing elit, eius to mod tempor incidi dunt ut labore et dolore magna aliqua.</div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                 <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              React Basics
+                            </a>
+                          </h4>
+
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Lorem ipsum dolor sit amet, consectetur adipisicing elit, eius to mod tempor incidi dunt ut labore et dolore magna aliqua.</div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                 <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Overview
+                            </a>
+                          </h4>
+
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Lorem ipsum dolor sit amet, consectetur adipisicing elit, eius to mod tempor incidi dunt ut labore et dolore magna aliqua.</div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="course-video" data-aos="fade-down">
+              <iframe width="100%" height="210" src="https://www.youtube.com/embed/Ke90Tje7VS0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="material">
+                <h3>Target Audience</h3>
+                <p><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor sit amet.</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i> Ut enims ad minim veniam.</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i> Consectetur adipisicing elit.</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i> Ut enims ad minim veniam.</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <div class="requirments tags"  data-aos="fade-up">
+              <div class="tags-details">
+                <p> Beginner </p>
+              </div>
+
+              <div class="tags-details">
+                <p> Lorem Ipsum </p>
+              </div>
+
+              <div class="tags-details">
+                <p> Test </p>
+              </div>
+
+              <div class="tags-details">
+                <p> Language </p>
+              </div>
+
+              <div class="tags-details">
+                <p> Technology </p>
+              </div>
+            </div>
+
+            <div class="requirments"  data-aos="fade-up">
+              <div class="material">
+                <h3>Requirments</h3>
+                <p><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor sit amet.</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i> Ut enims ad minim veniam.</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i> Consectetur adipisicing elit.</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i> Ut enims ad minim veniam.</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i> Consectetur adipisicing elit.</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+
+            <div class="requirments last"  data-aos="fade-up">
+              <div class="material">
+                <h3>Course Overview</h3>
+                <p>Anim pariatur cliche reprehenderit, terry richardson ad squid. Lorem ipsum dolor sit amet, consectetur adipisicing elit, eius to mod tempor incidi dunt ut labore et dolore magna aliqua.</p>
+
+                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Lorem ipsum dolor sit amet, consectetur adipisicing elit, eius to mod tempor incidi dunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    
+
+</div>
+
+  <section class="newsletter">
+    <div class="container news-wrap" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="news-left">
+            <img style="max-width: 50px" src='./assets/white-newsletter.png'><h6>Subscribe to Newsletter</h6>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="para-form">
+            <form class="form-inline" action="/action_page.php">
+              <input type="email" class="form-control" id="email" placeholder="Your email" name="email">
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ctmsec8">
+    <div class="container">
+      <div class="ctm-footer">
+        <div class="c-name">
+          <img src='./assets/dark-logo.png'>
+          <p>Hopin is the world's leading all-in-one virtual event platform.</p>
+        </div>
+
+        <div class="footer-nav">
+          <p class="title">Product</p>
+          <p><a href="#">Why Hopin</a></p>
+          <p><a href="#">Case Studies</a></p>
+          <p><a href="#">Testimonials</a></p>
+          <p><a href="#">Pricing</a></p>
+          
+        </div>
+
+        <div class="footer-nav">
+          <p class="title">Resources</p>
+          <p><a href="#">Blog</a></p>
+          <p><a href="#">Sponsor Whitepaper</a></p>
+          <p><a href="#">Knowledge base</a></p>
+          <p><a href="#">Pricing</a></p>
+        </div>
+
+        <div class="footer-nav">
+          <p class="title">Company</p>
+          <p><a href="#">About Hopin</a></p>
+          <p><a href="#">Our mission</a></p>
+          <p><a href="#">Careers</a></p>
+          <p><a href="#">Press room</a></p>
+        </div>
+
+        <div class="footer-nav newsletter">
+          <p class="title">Get the latest Hopin updates</p>
+          
+          <form class="form-inline" action="/action_page.php">
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+          </form>
+
+          <div class="social-links">
+            <a href="#" class="s-link" ><i class="fa fa-facebook"></i></a>
+            <a href="#" class="s-link" ><i class="fa fa-twitter"></i></a>
+            <a href="#" class="s-link" ><i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="ctm-footer1">
+        <ul class="footer-list">
+                <li><a href="#">Terms and conditions</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Community guidelines</a></li>
+                <li><a href="#">Status</a></li>
+              </ul>
+      </div>
+    </div>
+  </section>
+
+ <script>
+  AOS.init({
+    duration:2000, 
+    delay: 2,
+  });
+</script> 
+
+<script type="text/javascript">
+      
+    if($(window).width() > 1199) {
+        $('.dropdown_link_nav').mouseenter(function(){
+            $(this).find('.dropdown_menu').stop().fadeIn(300);
+            $('.header').addClass('ctm-submenu');
+        }).mouseleave(function(){
+            $(this).find('.dropdown_menu').stop().fadeOut(300);
+            $('.header').removeClass('ctm-submenu');
+        });
+    }
+
+;
+    
+</script>
+
+<style type="text/css">
+  ul.navbar-nav{margin-left: 17.5%;}
+  section.course-sec{padding: 150px 00 100px;}
+</style>
+</body>
+</html>

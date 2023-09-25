@@ -1,0 +1,146 @@
+
+#about-us-page .about-sec {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto; padding: 100px 0;
+}
+
+#about-us-page .about-sec h1 {
+    color: #fdfdfd !important;
+}
+
+.abt-btn-group button.btn.btn-default{
+	transition: 0.5s;
+    border-color: #fff;
+    color: #082a4e;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 10px;
+    line-height: 1.8;
+    padding: 11px 31px;
+    border-radius: 2px;
+    border-bottom: 2px solid #fff;
+}
+
+section.aboutone {
+    padding: 100px 0;
+    background: #fff;
+}
+
+section.aboutone .banner-video video#myVideo {
+    width: 100%;
+}
+
+section.aboutone .banner-video video#myVideo {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 17px 0px rgb(27 31 45 / 22%);
+}
+
+button.btn.btn-default.abt1-btn {
+    transition: 0.5s;
+    background-color: #07294d;
+    border-color: #07294d;
+    color: #f6f6f8;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.8;
+    padding: 11px 31px;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    /* margin: 0 auto; */
+    position: relative;
+    top: 0;
+    transition: 0.5s;
+    box-shadow: 3px 6px 14px 2px rgb(8 11 21 / 12%);
+}
+
+section.aboutone .banner-video {
+    padding: 0;     margin: 0 auto;
+    text-align: center;
+}
+
+#about-us-page section.aboutone img {
+    width: 70%;
+}
+
+section.aboutone.two {
+     background: #082a4e0d;
+}
+
+section.aboutone.two .video-outer {
+    margin-right: 20px;
+}
+
+.service-page section.aboutone .row {
+    display: flex;
+    align-items: center;
+}
+
+.service-page section.service-key {
+    padding: 100px 0;
+    background: #07294d17;
+    text-align: center;
+}
+
+.ctm-service {
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px; margin-bottom: 25px;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    box-shadow: 3px 6px 11px 2px rgb(7 41 77 / 12%);
+}
+
+.ctm-service .serv-icon img.image-responsive {
+    width: 30px;
+}
+
+.ctm-service .serv-icon {
+    min-width: 55px;
+    height: 55px;
+    background: white;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 3px 6px 11px 2px rgb(7 41 77 / 12%);
+}
+
+.ctm-service .serv-cnt {
+    margin-left: 15px;
+}
+
+.ctm-service .serv-cnt p {
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+.ctm-service .serv-cnt h4 {
+    font-size: 16px; transition: 1s;
+}
+
+.ctm-service:hover h4 {
+    color: #fdfdfd !important;
+}
+
+.service-page section.service-key .about-left {
+    margin-bottom: 50px;
+}
+
+section.newsletter.service-page {
+    background: #e8ebee;
+}
+
+.ctm-service {
+    transition: 1s;
+}
+
+.ctm-service:hover {
+    background: #082a4e;
+    color: #fdfdfd; cursor: pointer;
+}
